@@ -1,0 +1,109 @@
+/*main*/
+body{
+    background-color: #F4F4F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/*main*/
+/* start login form */
+
+.login{
+    width: 300px;
+    margin:100px auto;
+}
+.login input{
+    margin-bottom: 10px;
+    border: none;
+}
+.login .form-control{
+    background-color: #e6e6e6;
+}
+.login .btn{
+    background-color: #3761bd;
+}
+
+.login h4{
+    margin-bottom: 20px;
+    color: #3761bd;
+    font-family: fantasy;
+    font-size: 30px;
+}
+/* end login form */
+/* start home page*/
+.paid .paided1,.paid .paided2,.paid .all{
+    border: 1px solid #dedede;
+    height: 130px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    font-size: 35px;
+
+}
+.paid .paided1{
+    background-color: #3498db;
+}
+.paid .all{
+    background-color: #f39c12;
+}
+.paid .paided2{
+    background-color: #c0392b;
+}
+.home-stats h1{
+    margin-bottom: 20px;
+}
+.paid span a
+{
+    color: #fff;
+}
+.paid span a:hover
+{
+   text-decoration: none;
+}
+.paid .btn-success
+{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 11px 0 11px 0;
+}
+.paid .years{
+    margin-top: 20px;
+}
+.paid .years a{
+    text-decoration: none;
+}
+.paid .years h5,.paid .info h5{
+    text-align: left !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+.paid .years h5 i{
+    font-size: 14px;
+}
+.paid .info{
+    margin-top: 20px;
+}
+.paid .info span{
+    font-size: 18px;
+    display: block;
+    background: gainsboro;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+}
+.paid .info span h3 {
+    font-size: 16px;
+    display: inline-block;
+    background: #af291b;
+    padding: 4px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+}
